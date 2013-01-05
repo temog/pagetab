@@ -23,7 +23,7 @@ body {
 <script type="text/javascript">
 window.fbAsyncInit = function() {
 	FB.init({
-		appId : '<?php echo $appId; ?>',
+		appId : '<?php echo $this->appId; ?>',
 		status : true,
 		cookie : true,
 		xfbml : true,
